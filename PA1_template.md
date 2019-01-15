@@ -89,7 +89,6 @@ activityDataImputed <- activityData
 activityDataImputed$steps <- impute(activityData$steps, fun=mean)
 ```
 
-
 ##### 4. Make a histogram of the total number of steps taken each day 
 
 ```r
